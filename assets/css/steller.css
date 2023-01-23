@@ -11450,7 +11450,7 @@ pre {
 }
 
 .header {
-  height: 94vh;
+  height: 86vh;
   min-height: 650px;
   border-bottom: 1px solid #dee2e6;
 }
@@ -11516,8 +11516,6 @@ pre {
 .header .container .img-holder img {
   width: 100%;
   max-width: 620px;
-  -webkit-filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
-          filter: drop-shadow(0 -4px 20px rgba(206, 212, 218, 0.4));
   margin-left: auto;
   margin-right: -2rem;
 }
