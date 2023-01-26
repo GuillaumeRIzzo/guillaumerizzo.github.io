@@ -235,11 +235,7 @@ label {
 
 button {
   border-radius: 0;
-}
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  border: none;
 }
 
 input,
@@ -5152,6 +5148,8 @@ input[type="button"].btn-block {
 
 .card-img-top {
   width: 100%;
+  min-height: 20vh;
+  max-height: 20vh;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
 }
