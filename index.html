@@ -1,375 +1,784 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- <meta name="description" content="Start your development with Steller landing page.">
-    <meta name="author" content="Devcrud"> -->
+
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <title>Guillaume RIZZO</title>
-  <!-- font icons -->
-  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
-  <!-- Bootstrap + Steller main styles -->
-  <link rel="stylesheet" href="assets/css/steller.css">
+
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Varela" rel="stylesheet">
+
+  <!-- Favicon
+    ================================================== -->
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://media.istockphoto.com/id/829771910/vector/warrior-knight-mascot.jpg?s=612x612&w=0&k=20&c=vKOt5agjzGOAUrb19mdxFy2RafN2rw7OL9xbGaCsC2s=">
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://media.istockphoto.com/id/829771910/vector/warrior-knight-mascot.jpg?s=612x612&w=0&k=20&c=vKOt5agjzGOAUrb19mdxFy2RafN2rw7OL9xbGaCsC2s=">
+  <link rel="icon" sizes="16x16"
+    href="https://media.istockphoto.com/id/829771910/vector/warrior-knight-mascot.jpg?s=612x612&w=0&k=20&c=vKOt5agjzGOAUrb19mdxFy2RafN2rw7OL9xbGaCsC2s=">
+  <link rel="manifest" href="assets/img/manifest.json">
+  <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Stylesheets
+    ================================================== -->
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!-- Font Awesome core CSS -->
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body>
 
-  <!-- Page navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
-    <div class="container">
-      <a class="navbar-brand nav-link" href="#home">Accueil</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Hero Section, Background Image change in css -->
+  <div id="top" class="home">
+    <div class="hero background-overlay"></div>
+    <!-- Name & Description -->
+    <div class="hero-content">
+      <img src="assets/img/avatar.jpg" class="hero-img">
+      <h1>Je suis Guilluame RIZZO</h1>
+      <p class="hero-job"><span>UN Développeur web</span></p>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto align-items-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">À propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#achievement">Réalisations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Compétences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#qualification">Parcours</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+    </div><!-- /.hero-content -->
+
+    <div class="hero-arrow page-scroll home-arrow-down">
+      <a class="" href="#about"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+    </div><!-- /.hero-arrow -->
+
+  </div><!-- /.hero -->
+  <!-- End Hero -->
+
+  <!-- Header -->
+  <header id="masthead" class="site-header">
+    <nav id="primary-navigation" class="site-navigation" data-spy="affix">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#portfolio-perfect-collapse" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- Name -->
+          <div class="page-scroll site-logo">
+            <a href="#top">Guillaume</a>
+          </div>
+
+        </div><!-- /.navbar-header -->
+
+        <div class="main-menu collapse navbar-collapse" id="portfolio-perfect-collapse">
+
+          <!-- Navigation -->
+          <ul class="nav navbar-nav navbar-right">
+
+            <li class="page-scroll"><a href="#top">Accueil</a></li>
+            <li class="page-scroll"><a href="#about">À propos</a></li>
+            <li class="page-scroll"><a href="#skills">Compétences</a></li>
+            <li class="page-scroll"><a href="#works">Réalisations</a></li>
+            <li class="page-scroll"><a href="#history">Parcours</a></li>
+            <li class="page-scroll"><a href="#contact">Contact</a></li>
+
+          </ul><!-- /.navbar-nav -->
+
+        </div><!-- /.navbar-collapse -->
       </div>
-    </div>
-  </nav>
-  <!-- End of page navibation -->
+    </nav><!-- /.primary-navigation -->
+  </header><!-- /#header -->
+  <!-- End Header -->
 
-  <!-- Page Header -->
-  <header class="header" id="home">
-    <div class="container">
-      <div class="infos">
-        <h6 class="subtitle">Développeur Web</h6>
-        <h6 class="title">Guillaume RIZZO</h6>
+  <!-- Main content -->
+  <main id="main" class="site-main">
 
-        <div class="buttons pt-3">
-          <a href="#contact" class="nav-link btn btn-dark rounded">Contactez moi</a>
-        </div>
-
-      </div>
-      <div class="img-holder">
-        <img src="assets/imgs/home.gif" alt="">
-      </div>
-    </div>
-
-  </header>
-  <!-- End of Page Header -->
-
-  <!-- About section -->
-  <section id="about" class="section">
-    <div class="container mt-5">
-      <div class="row text-center text-md-left">
+    <!-- About section -->
+    <section class="site-section section-about text-center" id="about">
+      <div class="container">
         <div class="col-md-3">
-          <img src="assets/imgs/avatar.jpg" alt="" class="img-thumbnail mb-4">
+          <img src="assets/img/avatar.jpg" alt="" class="img-thumbnail mb-4">
         </div>
-        <div class="pl-md-4 col-md-9">
-          <h6 class="title">Guillaume RIZZO</h6>
-          <p class="subtitle">Développeur Web</p>
+        <div class="text-center text-md-left">
+          <h2 class="service-title">Guillaume RIZZO</h2>
+          <p class="section-subtitle">Développeur Web</p>
+        </div>
+        <div class="service-info pl-md-5 col-md-9 text-left">
           <p>Je suis rêveur, réservé, mais je sais sortir de ma bulle pour aller aider une personne dans le
             besoin.
             <br> J'aime l'histoire, et plus précisément la période médiévale que les historiens situent
-            entre le Ve et
-            XVe
-            siècle.
+            entre le Ve et XVe siècle.
           </p>
           <p>J'ai commencé à aimer cette époque historique quand j'étais enfant. Au début, j'étais émerveillé
             par les
             armures de chevalier et les châteaux puis en grandissant, j'ai également développé un intérêt
             pour les
             musiques et l'histoire dans sa globalité, tout en gardant mon âme d'enfant.</p>
-          <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>
+          <button class="btn btn-primary rounded mt-5">DOWNLOAD CV</button>
         </div>
+      </div>
+    </section><!-- /.section-about -->
+    <!-- End About section -->
+
+    <!-- Quote section -->
+    <section class="section-background section-quote background-overlay text-center">
+      <div class="container">
+      </div>
+    </section><!-- /.section-quote -->
+    <!-- End Quote section -->
+
+    <!-- skills section -->
+    <section class="site-section section-services" id="skills">
+
+      <div class="container-fluid">
+        <h2>Compétences</h2>
+      </div>
+
+      <div class="container container-skills">
+
+        <div class="carousel slide" id="services-carousel">
+
+          <div class="carousel-indicators nav-tabs text-center">
+            <a data-target="#services-carousel" href="#" data-slide-to="0" class="active">
+              <div class="col-xs-4 col-sm-fifth">
+                <div class="service">
+                  <div class="rectangle">
+                    <img  src="assets/img/ear.svg" aria-hidden="true"></img>
+                  </div>
+                  <p class="hidden-xs">L'écoute</p>
+                </div>
+              </div>
+            </a><!-- /.item -->
+            <a data-target="#services-carousel" href="#" data-slide-to="1">
+              <div class="col-xs-4 col-sm-fifth">
+                <div class="service">
+                  <div class="rectangle">
+                    <img src="assets/img/figma.svg" aria-hidden="true"></img>
+                  </div>
+                  <p class="hidden-xs">Le maquettage</p>
+                </div>
+              </div>
+            </a><!-- /.item -->
+            <a data-target="#services-carousel" href="#" data-slide-to="2">
+              <div class="col-xs-4 col-sm-fifth">
+                <div class="service">
+                  <div class="rectangle">
+                    <img  src="assets/img/react.svg" aria-hidden="true"></img>
+                  </div>
+                  <p class="hidden-xs">Développement Web</p>
+                </div>
+              </div>
+            </a><!-- /.item -->
+            <a data-target="#services-carousel" href="#" data-slide-to="3">
+              <div class="col-xs-4 col-sm-fifth">
+                <div class="service">
+                  <div class="rectangle">
+                    <img src="assets/img/team.svg" aria-hidden="true"></img>
+                  </div>
+                  <p class="hidden-xs">Travail en équipe</p>
+                </div>
+              </div>
+            </a><!-- /.item -->
+            <a data-target="#services-carousel" href="#" data-slide-to="4">
+              <div class="col-xs-4 col-sm-fifth">
+                <div class="service">
+                  <div class="rectangle">
+                    <img src="assets/img/database.svg" aria-hidden="true"></img>
+                  </div>
+                  <p class="hidden-xs">SQL</p>
+                </div>
+              </div>
+            </a><!-- /.item -->
+            <a data-target="#services-carousel" href="#" data-slide-to="5">
+              <div class="col-xs-4 col-sm-fifth">
+                <div class="service">
+                  <div class="rectangle">
+                    <img src="assets/img/mug.svg" aria-hidden="true"></img>
+                  </div>
+                  <p class="hidden-xs">La patience</p>
+                </div>
+              </div>
+            </a><!-- /.item -->
+          </div><!-- /.carousel-indicators -->
+
+
+          <div class="carousel-inner">
+            <!-- Item 1 -->
+            <div id="item1" class="item tab-pane active">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="service-info">
+                    <h3 class="service-title">L'écoute</h3>
+                    <p>L'écoute est une compétence transverse qui signifie être attentive aux autres, comprendre leurs
+                      perspectives et leurs besoins, et utiliser cette compréhension pour mieux communiquer et collaborer avec
+                      eux. Cette compétence est cruciale dans de nombreux contextes, y compris dans le monde du développement web.
+                    </p>
+                    <p>En développement web, l'écoute est importante pour comprendre les besoins et les attentes des clients, des
+                      utilisateurs finaux, et des autres membres de l'équipe. Cela peut aider à clarifier les exigences du projet,
+                      à identifier les opportunités d'amélioration, et à résoudre les problèmes plus efficacement. De plus, en
+                      écoutant attentivement les commentaires des utilisateurs, les développeurs peuvent concevoir des
+                      applications plus conviviales et utiles pour eux.</p>
+                    <p>En résumé, l'écoute peut être un facteur clé de la réussite en développement web, en permettant aux
+                      développeurs de mieux comprendre les besoins des utilisateurs, de travailler plus efficacement avec
+                      l'équipe, et de fournir des solutions plus adaptées à leurs utilisateurs.</p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="assets/img/listen.svg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div><!-- /.item -->
+            <!-- Item 2 -->
+            <div id="item2" class="item tab-pane">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="service-info">
+                    <h3 class="service-title">Le Maquettage</h3>
+                    <p>Je peux dire que le maquettage est un aspect clé du processus de développement de sites web. Il permet de
+                      visualiser et de tester l'interface et les fonctionnalités du site avant de commencer la phase de
+                      développement. Cela peut économiser beaucoup de temps et d'efforts, car les erreurs peuvent être corrigées
+                      avant de développer le site.</p>
+                    <p>De plus, le maquettage aide à clarifier les attentes et les besoins des clients en ce qui concerne le
+                      design et les fonctionnalités du site. Cela permet de s'assurer que les développeurs comprennent les
+                      objectifs et les souhaits du client, ce qui peut améliorer la qualité du produit final.</p>
+                    <p>Enfin, le maquettage peut aider à maintenir le budget et les délais en évitant les révisions coûteuses et
+                      les délais supplémentaires dus à des erreurs ou des malentendus. Cela peut également aider à garantir la
+                      satisfaction du client en leur donnant un aperçu concret de ce à quoi le site ressemblera une fois terminé.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="assets/img/maquette.svg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div><!-- /.item -->
+            <!-- Item 3 -->
+            <div id="item3" class="item tab-pane">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="service-info">
+                    <h3 class="service-title">Développement web</h3>
+                    <p>Le développement de sites web avec ReactJS est avantageux car il permet de construire des applications web plus rapidement et efficacement grâce à son moteur de rendu performant. C'est facile à apprendre pour les développeurs expérimentés et il a une large communauté active et une documentation complète. Il utilise une architecture de données unidirectionnelle pour une gestion facile de l'état de l'application et une expérience utilisateur fluide. En somme, c'est un choix judicieux pour les développeurs qui cherchent à construire des applications web interactives et fiables.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="assets/img/development.svg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div><!-- /.item -->
+            <!-- Item 4 -->
+            <div id="item4" class="item tab-pane">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="service-info">
+                    <h3 class="service-title">Travail en équipe</h3>
+                    <p>Le travail en équipe est une compétence transverse importante qui signifie la capacité à travailler efficacement avec les autres pour atteindre un objectif commun. Cela implique de comprendre les rôles et les responsabilités de chaque membre de l'équipe, de communiquer clairement, de faire preuve de flexibilité et de résoudre les conflits de manière constructive.</p>
+                    <p>Dans le monde du développement web, le travail en équipe est essentiel pour garantir la réussite des projets. Les développeurs travaillent souvent en collaboration avec des designers, des product owners et d'autres professionnels pour concevoir, développer et déployer des applications web. Il est important que les membres de l'équipe travaillent ensemble pour comprendre les objectifs du projet, déterminer les tâches et les responsabilités et communiquer de manière efficace pour garantir le succès du projet. En fin de compte, le travail en équipe peut améliorer la qualité du produit final et accélérer le temps de mise sur le marché.</p>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <img src="assets/img/teamwork.svg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div><!-- /.item -->
+            <!-- Item 5 -->
+            <div id="item5" class="item tab-pane">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="service-info">
+                    <h3 class="service-title">SQL</h3>
+                    <p>SQL (Structured Query Language) est un langage de programmation utilisé pour gérer des bases de données relationnelles. Il permet de stocker, récupérer et manipuler des données dans une base de données. Les développeurs web peuvent utiliser SQL pour interagir avec des bases de données pour les applications web, telles que la création de tables, l'insertion, la mise à jour et la suppression de données. Les systèmes de gestion de bases de données populaires, tels que MySQL et PostgreSQL, supportent SQL.</p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="assets/img/server.svg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div><!-- /.item -->
+            <!-- Item 6 -->
+            <div id="item6" class="item tab-pane">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="service-info">
+                    <h3 class="service-title">La patience</h3>
+                    <p>Je peux dire que la patience est très importante. C'est une qualité qui nous aide à faire face aux défis et aux obstacles de la vie avec sérénité et calme. La patience nous permet d'attendre sans nous énerver et de ne pas abandonner lorsque les choses ne se passent pas comme prévu.</p>
+                    <p>Cette compétence est particulièrement utile dans les situations stressantes, comme le travail, les relations personnelles et les situations financières difficiles. Avoir de la patience nous aide à garder notre calme et à trouver des solutions à nos problèmes sans nous épuiser ou nous faire du mal.</p>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="assets/img/zen.svg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div><!-- /.item -->
+          </div><!-- /.carousel-inner -->
+          </div><!-- /.carousel -->
+          </div>
+          </section><!-- /.section-services -->
+          <!-- End Services section -->
+
+    <!-- Quote section -->
+    <section class="section-background section-me background-overlay text-center">
+      <div class="container">
+      </div>
+    </section><!-- /.section-quote -->
+    <!-- End Quote section -->
+
+    <!-- Portfolio/Works section -->
+    <section class="site-section section-works" id="works">
+      <div class="container">
+        <h2>Réalisations</h2>
+
+        <div class="portfolio">
+          <ul class="portfolio-sorting list-inline">
+            <li><a href="#" class=" active" data-group="all">Tous</a></li>
+            <li><a href="#" class="" data-group="technique">Technique</a></li>
+            <li><a href="#" class="" data-group="humaine">Humaine</a></li>
+          </ul><!-- /.portfolio-sorting  -->
+
+          <div id="grid">
+
+            <!-- Portfolio item -->
+            <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["technique"]'>
+              <div class="portfolio-item">
+                <div class="portfolio-item-thumb">
+                  <img src="assets/img/portfolio-1.jpg" alt="" class="img-res">
+                  <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem1">
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div><!-- /.portfolio-item-thumb  -->
+                <div class="portfolio-info">
+                  <h3>PSD Template</h3>
+                  <p>Web Design</p>
+                </div><!-- /.portfolio-info  -->
+              </div>
+            </div><!-- /.col-md-3  -->
+            <!-- Portfolio item -->
+            <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["humaine"]'>
+              <div class="portfolio-item">
+                <div class="portfolio-item-thumb">
+                  <img src="assets/img/portfolio-2.jpg" alt="" class="img-res">
+                  <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem2">
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div><!-- /.portfolio-item-thumb  -->
+                <div class="portfolio-info">
+                  <h3>Website</h3>
+                  <p>Web Development</p>
+                </div><!-- /.portfolio-info  -->
+              </div>
+            </div><!-- /.col-md-3  -->
+            <!-- Portfolio item -->
+            <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["technique"]'>
+              <div class="portfolio-item">
+                <div class="portfolio-item-thumb">
+                  <img src="assets/img/portfolio-3.jpg" alt="" class="img-res">
+                  <a href="#" class="rectangle" data-toggle="modal" data-target="#portfolioItem4">
+                    <i class="fa fa-plus"></i>
+                  </a>
+                </div><!-- /.portfolio-item-thumb  -->
+                <div class="portfolio-info">
+                  <h3>PSD Template</h3>
+                  <p>Web Design</p>
+                </div><!-- /.portfolio-info  -->
+              </div>
+            </div><!-- /.col-md-3  -->
+          </div><!-- /#grid -->
+        </div>
+      </div>
+    </section><!-- /.section-works -->
+    <!-- End Works section -->
+
+    <!-- Quote section -->
+    <section class="section-background section-twitter background-overlay text-center">
+      <div class="container">
+      </div>
+    </section><!-- /.section-quote -->
+    <!-- End Quote section -->
+
+    <!-- History section -->
+    <section class="section-history" id="history">
+      <div class="container">
+        <div class="text-center section-diff-title">
+          <h2>Parcours</h2>
+        </div>
+        <!-- Timeline -->
+        <ul class="timeline">
+          <!-- Timeline badge -->
+          <li class="timeline-start">
+            <div class="rectangle"><span>2016</span></div>
+          </li><!-- /.timeline-start -->
+
+          <!-- Timeline job & description  -->
+          <li>
+            <div class="rectangle timeline-rectangle"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <div class="timeline-date">
+                  <p>13 sep</p>
+                </div><!-- /.timeline-date -->
+                <div class="timeline-position">
+                  <p>Web design &amp; Development</p>
+                </div><!-- /.timeline-position -->
+              </div><!-- /.timeline-heading -->
+              <div class="timeline-body">
+                <div class="timeline-body-thumb">
+                  <img src="assets/img/timeline-img.jpg" class="img-res" alt="">
+                </div><!-- /.timeline-body-thumb -->
+                <p>Designing and developing a Wordpress Website</p>
+              </div><!-- /.timeline-body -->
+            </div><!-- /.timeline-panel -->
+          </li>
+
+          <!-- Timeline badge -->
+          <li class="timeline-start">
+            <div class="rectangle"><span>2017</span></div>
+          </li><!-- /.timeline-start -->
+
+          <!-- Timeline job & description, inverted  -->
+          <li class="timeline-inverted">
+            <div class="rectangle timeline-rectangle"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <div class="timeline-position">
+                  <p>Web Design</p>
+                </div><!-- /.timeline-position -->
+                <div class="timeline-date">
+                  <p>5 Jan</p>
+                </div><!-- /.timeline-date -->
+              </div><!-- /.timeline-heading -->
+              <div class="timeline-body">
+                <div class="timeline-body-thumb">
+                  <img src="assets/img/timeline-img.jpg" class="img-res" alt="">
+                </div><!-- /.timeline-body-thumb -->
+                <p>Designing a solution for mobile app</p>
+              </div><!-- /.timeline-body -->
+            </div><!-- /.timeline-panel -->
+          </li><!-- /.timeline-inverted -->
+
+          <!-- Timeline job & description  -->
+          <li>
+            <div class="rectangle timeline-rectangle"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <div class="timeline-date">
+                  <p>25 Aug</p>
+                </div><!-- /.timeline-date -->
+                <div class="timeline-position">
+                  <p>Seo Optimization</p>
+                </div><!-- /.timeline-position -->
+              </div><!-- /.timeline-heading -->
+              <div class="timeline-body">
+                <div class="timeline-body-thumb">
+                  <img src="assets/img/timeline-img.jpg" class="img-res" alt="">
+                </div><!-- /.timeline-body-thumb -->
+                <p>SEO optimizing a couple of websites</p>
+              </div><!-- /.timeline-body -->
+            </div><!-- /.timeline-panel -->
+          </li>
+
+          <!-- Timeline Badge  -->
+          <li class="timeline-end">
+            <div class="rectangle"><span>More</span></div>
+          </li><!-- /.timeline-end -->
+        </ul><!-- /.timeline -->
+      </div>
+    </section><!-- /.section-history -->
+    <!-- End History section -->
+
+    <!-- Quote section -->
+    <section class="section-background section-last background-overlay text-center">
+      <div class="container">
+      </div>
+    </section><!-- /.section-quote -->
+    <!-- End Quote section -->
+    
+    <!-- Contacts section -->
+    <section class="site-section section-contact" id="contact">
+      <section class="section-networks">
+        <div class="container">
+          <h2>Pour me contacter</h2>
+        </div>
+        <div class="container mt-5" style="display: flex; align-items: flex-start; justify-content: space-around; flex-direction: column;">
+          <div style="display: flex; align-items: center;">
+            <a href="" class="rectangle blue-bg">
+              <i class="fa fa-map-marker"></i>
+            </a>
+            <div style="display: flex; flex-direction: column; margin-left: 1vw;">
+              <h3>Localisation</h3>
+              <p>France, Ivris-sur-Seine</p>
+            </div>
+          </div>
+          <div style="display: flex; align-items: center;">
+            <a href="https://www.linkedin.com/in/guillaume-rizzo/" class="rectangle blue-bg">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <div style="display: flex; flex-direction: column; margin-left: 1vw;">
+              <h3>Linkedin</h3>
+            </div>
+          </div>
+        </div>
+      </section><!-- /.section-networks-->
+    </section><!-- /.section-contact-->
+    <!-- End Contacts section -->
+
+    <!-- Social Networks section -->
+    <!-- End Social Networks section -->
+
+  </main><!-- /#main -->
+  <!-- End Main content -->
+
+  <!-- Footer -->
+  <footer id="colophon" class="site-footer">
+
+    <div class="container-fluid">
+
+      <ul class="list-unstyled list-inline">
+        <li class="page-scroll"><a href="#top">Accueil</a></li>
+        <li class="page-scroll"><a href="#about">À propos</a></li>
+        <li class="page-scroll"><a href="#skills">Compétences</a></li>
+        <li class="page-scroll"><a href="#works">Réalisations</a></li>
+        <li class="page-scroll"><a href="#history">Parcours</a></li>
+        <li class="page-scroll"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="page-scroll">
+        <a href="#top" class="rectangle">
+          <i class="fa fa-angle-double-up"></i>
+        </a>
       </div>
     </div>
-  </section>
 
-  <!-- achievement Section -->
-  <section id="achievement" class="section">
-    <div class="container text-center">
-      <h2 class="section-title mb-5 pb-4">Réalisations</h2>
+  </footer><!-- /#footer -->
+  <!-- End Footer -->
 
-      <div class="row text-left">
-        <div class="col-md-4">
-          <div class="card border mb-4">
-            <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
-            <div class="card-body">
-              <h5 class="card-title">DataCress</h5>
-              <p>Projet étudiant de création de site web pour la CRESS NA</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#datacressmodal">
-                View More..
-              </button>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade bd-example-modal-lg" id="datacressmodal" tabindex="-1" role="dialog"
-            aria-labelledby="datacressmodalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
-              <div class="modal-content parchment">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modalTitle">DataCress</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Modals -->
+  <div id="portfolioItem1" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
         </div>
-
-        <div class="col-md-4">
-          <div class="card border mb-4">
-            <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
-            <div class="card-body">
-              <h5 class="card-title">Start.in'tech</h5>
-              <p>Association étudiant loi 1901.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#startmodal">
-                View More..
-              </button>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade bd-example-modal-lg" id="startmodal" tabindex="-1" role="dialog"
-            aria-labelledby="startmodalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
-              <div class="modal-content parchment">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modalTitle">Start.in'tech</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
         </div>
-
-        <div class="col-md-4">
-          <div class="card border mb-4">
-            <img src="https://images.unsplash.com/photo-1586892478025-2b5472316f22" alt="" class="card-img-top w-100">
-            <div class="card-body">
-              <h5 class="card-title">EasyScrum</h5>
-              <p>Projet d'entreprise</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#easyscrummodal">
-                View More..
-              </button>
-            </div>
-          </div>
-          <!-- Modal -->
-          <div class="modal fade bd-example-modal-lg" id="easyscrummodal" tabindex="-1" role="dialog"
-            aria-labelledby="easyscrummodalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
-              <div class="modal-content parchment">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modalTitle">EasyScrum</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
         </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
-      </div>
-  </section>
-
-  <!-- skills section -->
-  <section id="skills" class="section">
-    <div class="container text-center">
-      <h2 class="section-title mb-5 pb-4">Compétences</h2>
-
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="img-wrapper">
-            <button type="button" class="button" data-toggle="modal" data-target="#comp1modal">
-              <img src="assets/imgs/folio-1.jpg" alt="">
-              <div class="overlay">
-                <div class="overlay-infos">
-                  <h5>Compétence 1</h5>
-                </div>
-              </div>
-            </button>
-          </div>
-          <div class="img-wrapper">
-            <button type="button" class="button" data-toggle="modal" data-target="#comp2modal">
-              <img src="assets/imgs/folio-2.jpg" alt="">
-              <div class="overlay">
-                <div class="overlay-infos">
-                  <h5>Compétence 2</h5>
-                </div>
-              </div>
-            </button>
-          </div>
+  <div id="portfolioItem2" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
         </div>
-        <div class="col-sm-4">
-          <div class="img-wrapper">
-            <button type="button" class="button" data-toggle="modal" data-target="#comp3modal">
-              <img src="assets/imgs/folio-3.jpg" alt="">
-              <div class="overlay">
-                <div class="overlay-infos">
-                  <h5>Compétence 3</h5>
-                </div>
-              </div>
-            </button>
-          </div>
-          <div class="img-wrapper">
-            <button type="button" class="button" data-toggle="modal" data-target="#comp4modal">
-              <img src="assets/imgs/folio-4.jpg" alt="">
-              <div class="overlay">
-                <div class="overlay-infos">
-                  <h5>Compétence 4</h5>
-                </div>
-              </div>
-            </button>
-          </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
         </div>
-        <div class="col-sm-4">
-          <div class="img-wrapper">
-            <button type="button" class="button" data-toggle="modal" data-target="#comp5modal">
-              <img src="assets/imgs/folio-5.jpg" alt="">
-              <div class="overlay">
-                <div class="overlay-infos">
-                  <h5>Compétence 5</h5>
-                </div>
-              </div>
-            </button>
-          </div>
-          <div class="img-wrapper">
-            <button type="button" class="button" data-toggle="modal" data-target="#comp6modal">
-              <img src="assets/imgs/folio-6.jpg" alt="">
-              <div class="overlay">
-                <div class="overlay-infos">
-                  <h5>Compétence 6</h5>
-                </div>
-              </div>
-            </button>
-          </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
         </div>
-      </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
-    </div>
-  </section>
-  <!-- End of portfolio section -->
-
-  <!-- qualification section -->
-  <section id="qualification" class="section">
-    <div class="container text-center">
-      <h2 class="section-title mb-5 pb-4">Parcours</h2>
-
-      <div class="row">
-        <div class="col-sm-6 col-md-3 mb-4">
-          <div class="custom-card card border">
-            <div class="card-body">
-              <i class="icon ti-crown"></i>
-              <h5>UI/UX Design</h5>
-            </div>
-          </div>
+  <div id="portfolioItem3" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
         </div>
-        <div class="col-sm-6 col-md-3 mb-4">
-          <div class="custom-card card border">
-            <div class="card-body">
-              <i class="icon ti-desktop"></i>
-              <h5>Web Design</h5>
-            </div>
-          </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
         </div>
-        <div class="col-sm-6 col-md-3 mb-4">
-          <div class="custom-card card border">
-            <div class="card-body">
-              <i class="icon ti-mobile"></i>
-              <h5>App Design</h5>
-            </div>
-          </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
         </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
-
-      </div>
-    </div>
-  </section>
-  <!-- End of Sectoin -->
-
-  <!-- Contact Section -->
-  <section id="contact" class="position-relative section">
-    <div class="container text-center">
-      <h2 class="section-title">Contact</h2>
-      <h6 class="section-title mb-4">Pour me contacter</h6>
-
-      <div class="contact text-left">
-        <div class="contact-infos">
-          <div class="item">
-            <i class="ti-location-pin"></i>
-            <div class="">
-              <h5>Location</h5>
-              <p> Ivris-sur-Seine</p>
-            </div>
-          </div>
-          <div class="item">
-            <i class="ti-mobile"></i>
-            <div>
-              <h5>Phone Number</h5>
-              <p>+33 607362855</p>
-            </div>
-          </div>
-          <div class="item">
-            <i class="ti-email"></i>
-            <div class="mb-0">
-              <h5>Email Address</h5>
-              <p>guillaume.rizzo.lomet@gmail.com</p>
-            </div>
-          </div>
+  <div id="portfolioItem4" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End of Contact Section -->
-
-  <!-- Page Footer -->
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-sm-6">
-          <div class="socials">
-            <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-            <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-            <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-            <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
-          </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
         </div>
-      </div>
-    </div>
-  </footer>
-  <!-- End of page footer -->
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
-  <!-- core  -->
-  <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-  <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
-  <!-- bootstrap 3 affix -->
-  <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+  <div id="portfolioItem5" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
-  <!-- steller js -->
-  <script src="assets/js/steller.js"></script>
+  <div id="portfolioItem6" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div id="portfolioItem7" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-7.jpg" alt="">
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div id="portfolioItem8" class="modal fade fade-scale" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a class="rectangle" data-dismiss="modal"><i class="fa fa-times"></i></a>
+          <img class="img-res" src="assets/img/portfolio-8.jpg" alt="">
+        </div>
+        <div class="modal-body">
+          <h4 class="modal-title">Project title</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas
+            dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam
+            pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in
+            massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus
+            magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn">Visit Page</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!-- jQuery core js | Do not Delete -->
+  <script src="assets/js/jquery.min.js"></script>
+
+  <!-- Bootstrap core js | Do not Delete -->
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap progressbar JS -->
+  <script src="assets/js/bootstrap-progressbar.min.js"></script>
+
+  <!-- Count To JS -->
+  <script src="assets/js/jquery.countTo.min.js"></script>
+
+  <!-- Easing JS -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+
+  <!-- Shuffle JS -->
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+
+  <!-- Slick Carousel JS -->
+  <script src="assets/js/slick.min.js"></script>
+
+  <!-- Touchswipe JS -->
+  <script src="assets/js/touchswipe.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+  <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
 
 </body>
 
