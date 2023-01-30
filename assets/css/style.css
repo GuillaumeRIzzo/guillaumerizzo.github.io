@@ -265,7 +265,7 @@ html, body {
   height: 100vh;
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* HEADER
@@ -1139,6 +1139,10 @@ html, body {
   min-height: 390px;
 }
 
+.service-info .btn-primary {
+  background-color: #286090;
+}
+
 .service-info h3 {
   font-size: 28px;
   margin: 20px 0 0;
@@ -1219,9 +1223,7 @@ html, body {
   .section-services .service-info h3 {
     margin-top: 0;
   }
-  .section-services img {
-    margin: 30px auto 0;
-  }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -2350,7 +2352,7 @@ textarea.form-control {
 }
 
 .modal-header {
-  height: 400px;
+  height: 200px;
 }
 
 .modal-header .rectangle {
