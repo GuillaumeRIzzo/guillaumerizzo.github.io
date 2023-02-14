@@ -2060,7 +2060,7 @@ body {
   margin: 10px 0 0;
   font-size: 12px;
   font-weight: 300;
-  color: #bbbbbb;
+  color: #000;
 }
 
 .portfolio-item:hover .portfolio-item-thumb {
